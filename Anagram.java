@@ -51,5 +51,5 @@ class Solution {
  * After checking all characters, if the StringBuilder is empty, it means all
  * characters matched and got removed — so it's an anagram.
  * 
- * If something is left in StringBuilder, then it's not an anagram.
+ * If something is left in StringBuilder, then it is not an anagram.
  */
