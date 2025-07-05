@@ -3,7 +3,7 @@
 import java.util.Arrays;
 
 //Brute Force Approach
-public class containsDuplicate {
+class containsDuplicate {
     public boolean mycontainsDuplicate(int[] nums) {
         Arrays.sort(nums); // O(n log n)
 
@@ -20,9 +20,9 @@ public class containsDuplicate {
 class Solution {
     static{
         for(int i=0;i<=500;i++)
-            containsDuplicate(new int[]{0, 1, 0});
+            containsDuplicate2(new int[]{0, 1, 0});
     }
-    public static boolean containsDuplicate(int[] nums) {
+    public static boolean containsDuplicate2(int[] nums) {
         for(int i = 1; i<nums.length; i++){
             int key = nums[i];
             int j = i - 1;
