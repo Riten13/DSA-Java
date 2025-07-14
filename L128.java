@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class LongestConsecutiveSequence {
+public class L128 {
     public int longestConsecutive(int[] nums) {
         if (nums.length == 0)
             return 0;

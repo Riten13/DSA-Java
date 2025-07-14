@@ -3,7 +3,7 @@
 import java.util.Arrays;
 
 // Optimized Approach 
-public class Anagram {
+public class L242 {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length())
             return false;
